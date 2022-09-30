@@ -33,7 +33,7 @@ body {
     background: radial-gradient(circle at 60% 30%, #D8FFC3 0%, #85ffbd 70%);
     box-shadow: rgba(0, 0, 0, 0.1) 0 7px 13px -3px inset,
         rgba(0, 0, 0, 0.12) -2px -6px inset;
-        animation-name: bounce;
+    animation-name: bounce;
 }
 
 .shadow {
@@ -63,11 +63,13 @@ body {
     }
 }
 
-@keyframes shade{
-    50%{
+@keyframes shade {
+    50% {
         box-shadow: rgba(0, 0, 0, 0.12) -5px 170px 0px -5px
     }
-    0%, 100%{
+
+    0%,
+    100% {
         box-shadow: rgba(0, 0, 0, 0.075) -10px 100px 20px 5px;
     }
 }
