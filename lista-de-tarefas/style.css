@@ -121,3 +121,49 @@ main {
     text-decoration: line-through;
     color: grey;
 }
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    header {
+        width: 90%;
+    }
+
+    input {
+        height: 40px;
+        font-size: 1rem;
+    }
+
+    button.add {
+        font-size: 0.8rem;
+        height: 40px;
+    }
+
+    main {
+        width: 90%;
+    }
+
+    .item {
+        height: 40px;
+        margin-bottom: 2%;
+    }
+
+    .item-icone {
+        font-size: 1rem;
+        flex: 10%;
+    }
+
+    .item-nome {
+        font-size: 1rem;
+        flex: 70%;
+    }
+
+    .delete {
+        padding: 5px;
+        height: 40px;
+        font-size: 0.8rem;
+    }
+
+}
