@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
 
-.navbar{
+.navbar {
     display: flex;
     flex-flow: row wrap;
     height: 100px;
@@ -18,7 +18,7 @@
     width: 100%;
 }
 
-.logo{
+.logo {
     flex: 20%;
     text-align: left;
     margin-left: 10%;
@@ -26,13 +26,13 @@
     /* border: 1px solid red; */
 }
 
-h1{
+h1 {
     font-family: 'Lobster', cursive;
     color: #180F4A;
-    font-size: 34px; 
+    font-size: 34px;
 }
 
-.menu{
+.menu {
     flex: 70%;
     text-align: right;
     padding: 20px;
@@ -40,19 +40,19 @@ h1{
     /* border: 1px solid green; */
 }
 
-.menu a{
+.menu a {
     color: #180F4A;
     text-decoration: none;
     font-size: 20px;
     padding: 20px 16px;
 }
 
-.menu a:hover{
+.menu a:hover {
     color: #FF2978;
     border-top: 4px solid #180F4A;
 }
 
-#btn{
+#btn {
     background: #180F4A;
     padding: 10px 25px;
     color: white;
@@ -61,12 +61,12 @@ h1{
     margin-left: 5%;
 }
 
-#btn:hover{
+#btn:hover {
     border: none;
     background: #FF2978;
 }
 
-.header{
+.header {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -75,26 +75,26 @@ h1{
     padding-top: 100px;
 }
 
-.headline{
+.headline {
     flex: 40%;
     margin-left: 10%;
     /* border: 1px solid black; */
 }
 
 
-.headline h2{
+.headline h2 {
     font-weight: 900;
     font-size: 20px;
     color: #180F4A;
 }
 
-.headline p{
+.headline p {
     color: grey;
     text-align: left;
     margin: 15px 0;
 }
 
-.contact-btn{
+.contact-btn {
     background: #FF2978;
     padding: 20px;
     color: white;
@@ -104,18 +104,18 @@ h1{
     display: inline-block;
 }
 
-.contact-btn:hover{
+.contact-btn:hover {
     background-color: #180F4A;
 }
 
-.img-headline{
+.img-headline {
     margin-right: 10%;
     flex: 40%;
     /* border: 1px solid deeppink; */
     text-align: center;
 }
 
-section{
+section {
     display: inline-block;
     margin-top: 80px;
     /* border: 1px solid black; */
@@ -126,7 +126,7 @@ section{
     text-align: center;
 }
 
-section h2{
+section h2 {
     width: 100%;
     font-size: 50px;
     margin: 0;
@@ -135,13 +135,13 @@ section h2{
     color: #180F4A;
 }
 
-.servicos{
+.servicos {
     display: inline-block;
     margin-top: 5%;
 
 }
 
-.card{
+.card {
     display: inline-block;
     width: 30%;
     padding: 20px;
@@ -151,35 +151,35 @@ section h2{
     cursor: pointer;
 }
 
-.t-card{
+.t-card {
     margin-top: 10px;
     margin-bottom: 15px;
 }
 
-.texto-oculto{
+.texto-oculto {
     display: none;
 }
 
-.card:hover{
+.card:hover {
     background: #FF2978;
     color: white;
     padding: 40px;
 
 }
 
-.card:hover img{
+.card:hover img {
     display: none;
 }
 
-.card:hover .card-text{
+.card:hover .card-text {
     display: none;
 }
 
-.card:hover .texto-oculto{
+.card:hover .texto-oculto {
     display: block;
 }
 
-footer{
+footer {
     margin-top: 100px;
     height: 200px;
     background-image: linear-gradient(180deg, #180F4A, #090422, black);
@@ -187,55 +187,63 @@ footer{
     border-top: 5px solid #FF2978;
 }
 
-.logo-rodape{
+.logo-rodape {
     padding: 50px;
-    
+
 }
 
-.agencia{
+.agencia {
     font-family: 'Lobster', cursive;
     color: white;
-    font-size: 34px; 
+    font-size: 34px;
 }
 
-.whats{
-    position:fixed;
+.whats {
+    position: fixed;
     bottom: 5px;
     right: 5px;
-    
+
 }
 
-@media screen and (max-width: 1005px){
-    .navbar{
+@media screen and (max-width: 1005px) {
+    .navbar {
         position: relative;
     }
-    .menu{
+
+    .menu {
         display: none;
     }
-    .logo{
+
+    .logo {
         margin: 0;
         text-align: center;
     }
-    .header{
+
+    .header {
         margin-top: 50px;
     }
-    .headline{
+
+    .headline {
         flex: 100%;
         margin: 5%;
         text-align: center;
     }
-    .headline p{
+
+    .headline p {
         text-align: center;
     }
-    .img-headline{
+
+    .img-headline {
         flex: 100%;
         margin: 5%;
         text-align: center;
     }
-    .whats{
+
+    .whats {
         display: none;
     }
-    .card{
+
+    .card {
         width: 100%;
     }
 }
